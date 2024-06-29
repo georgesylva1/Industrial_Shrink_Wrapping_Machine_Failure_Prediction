@@ -44,4 +44,8 @@ Model Performance: Ensemble methods such as Balanced Random Forest and Easy Ense
 Neural Network: The neural network model also performs well, but it requires careful tuning of hyperparameters.
 
 ### Conclusion
-Handling class imbalance is crucial for improving the performance of machine learning models in predicting shrink wrapping machine failures. Resampling techniques and ensemble methods are effective in achieving better accuracy and robustness. Future work can focus on getting more data and looking into other opportunities for improved feature engineering.
+* Most of the models performed really well when dataset seemed unbalanced and balanced. I believe it is as a result of the threshold used and the behaviour of the machine generally with response to time.
+
+*Handling class imbalance is crucial for improving the performance of machine learning models in predicting shrink wrapping machine failures. Resampling techniques and ensemble methods are effective in achieving better accuracy and robustness. 
+
+*Future work can focus on some of the challenges encountered by getting a more robust data and looking into other opportunities for improved feature engineering.
