@@ -15,10 +15,10 @@ The dataset contains various features related to the shrink wrapping machine's o
 
 ***Various machine learning models are employed, including***:
 
-Random Forest,
-* Support Vector Machine (SVM),
-* Gradient Boosting Classifier,
-* K-Nearest Neighbors (KNN),
+* Random Forest
+* Support Vector Machine (SVM)
+* Gradient Boosting Classifier
+* K-Nearest Neighbors (KNN)
 * Neural Network using Keras
 
 ### Resampling techniques used to handle class imbalance:
@@ -31,13 +31,15 @@ Random Forest,
 * Easy Ensemble
 * Balanced Bagging Classifier
 
-Model Training and Evaluation
+### Model Training and Evaluation
 The models are trained using the training set, and their performance is evaluated using the testing set. Cross-validation is used to ensure robust evaluation, and the performance metrics include precision, recall, and F1-score.
 
-Results and Recommendations
+### Results and Recommendations
 The models are evaluated based on their classification reports and cross-validation scores. Key findings include:
 
-Imbalance Handling: Resampling techniques like SMOTE significantly improve the model's ability to handle class imbalance.
+***Behaviour of Lag Error***: This is with relationship to timestamp, speed and torque
+
+***Imbalance Handling***: Resampling techniques like SMOTE significantly improve the model's ability to handle class imbalance.
 Model Performance: Ensemble methods such as Balanced Random Forest and Easy Ensemble show promising results in handling imbalance and improving prediction accuracy.
 Neural Network: The neural network model also performs well, but it requires careful tuning of hyperparameters.
 
