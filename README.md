@@ -15,21 +15,21 @@ The dataset contains various features related to the shrink wrapping machine's o
 
 ***Various machine learning models are employed, including***:
 
-Random Forest
-Support Vector Machine (SVM)
-Gradient Boosting Classifier
-K-Nearest Neighbors (KNN)
-Neural Network using Keras
+Random Forest,
+* Support Vector Machine (SVM),
+* Gradient Boosting Classifier,
+* K-Nearest Neighbors (KNN),
+* Neural Network using Keras
 
 ### Resampling techniques used to handle class imbalance:
-Random Under-Sampling
-Random Over-Sampling
-Synthetic Minority Over-sampling Technique (SMOTE)
+* Random Under-Sampling
+* Random Over-Sampling
+* Synthetic Minority Over-sampling Technique (SMOTE)
 
 ### Ensemble methods are also explored to enhance model performance:
-Balanced Random Forest
-Easy Ensemble
-Balanced Bagging Classifier
+* Balanced Random Forest
+* Easy Ensemble
+* Balanced Bagging Classifier
 
 Model Training and Evaluation
 The models are trained using the training set, and their performance is evaluated using the testing set. Cross-validation is used to ensure robust evaluation, and the performance metrics include precision, recall, and F1-score.
