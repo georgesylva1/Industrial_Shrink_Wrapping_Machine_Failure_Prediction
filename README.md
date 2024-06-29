@@ -35,9 +35,9 @@ The dataset contains various features related to the shrink wrapping machine's o
 The models are trained using the training set, and their performance is evaluated using the testing set. Cross-validation is used to ensure robust evaluation, and the performance metrics include precision, recall, and F1-score.
 
 ### Results and Recommendations
-The models are evaluated based on their classification reports and cross-validation scores. Key findings include:
+After an in-depth exploratory data analysis and model evalutaion, the Key findings include:
 
-***Behaviour of Lag Error***: This is with relationship to timestamp, speed and torque
+***Better understanding between Lag error relationship to timestamp, speed and torque***
 
 ***Imbalance Handling***: Resampling techniques like SMOTE significantly improve the model's ability to handle class imbalance.
 Model Performance: Ensemble methods such as Balanced Random Forest and Easy Ensemble show promising results in handling imbalance and improving prediction accuracy.
