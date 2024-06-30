@@ -1,5 +1,5 @@
 # Industrial_Shrink_Wrapping_Machine_Failure_Prediction
-This project is on an industrial shrink wrapper failure prediction for preventive maintenance purpose
+In this project I used different models to predict the failure of a shrink wrapping machine. The purpose of knowing the possible failure likelihood of a machine is to ensure proper predictive maintenance and reduce maintenance cost
 
 ### Introduction
 The goal of this analysis is to predict failures in a shrink wrapping machine using various machine learning models. The data is preprocessed to handle class imbalance and outliers, and multiple resampling techniques and models are tested to determine the best approach for accurate predictions.
