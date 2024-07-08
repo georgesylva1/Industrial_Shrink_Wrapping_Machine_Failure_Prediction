@@ -43,6 +43,9 @@ After an in-depth exploratory data analysis and model evalutaion, the Key findin
 Model Performance: Ensemble methods such as Balanced Random Forest and Easy Ensemble show promising results in handling imbalance and improving prediction accuracy.
 Neural Network: The neural network model also performs well, but it requires careful tuning of hyperparameters.
 
+### Local User interface and Deployment on streamlit app
+To monitor and test out the performace of the model on new information we created a local  user interface using Tkinter an Streamlit was the web app of choice to use.
+
 ### Conclusion
 * Most of the models performed really well when dataset seemed unbalanced and balanced. I believe it is as a result of the threshold used and the behaviour of the machine generally with response to time.
 
