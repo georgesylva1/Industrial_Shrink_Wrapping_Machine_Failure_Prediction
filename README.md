@@ -44,7 +44,7 @@ Model Performance: Ensemble methods such as Balanced Random Forest and Easy Ense
 Neural Network: The neural network model also performs well, but it requires careful tuning of hyperparameters.
 
 ### Local User interface and Deployment on streamlit app
-The chosen model was the KNN model, trained on the full dataset for improved performance without the need to balance the categorical outcome, which was the failure_likelihood feature. To track the model's performance on new data, we developed a local user interface using Tkinter, while Streamlit was selected as the web app platform.
+The chosen model was the KNN model, trained on the full dataset for improved performance without the need to balance the categorical outcome, which was the failure_likelihood feature. To track the model's performance on new data, I developed a local user interface using Tkinter, while Streamlit was selected as the web app platform.
 
 ### Conclusion
 * Most of the models performed really well when dataset seemed unbalanced and balanced. I believe it is as a result of the threshold used and the behaviour of the machine generally with response to time.
